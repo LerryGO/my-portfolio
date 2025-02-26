@@ -1,17 +1,12 @@
 import { Header } from "./components/header/header";
 import "./../styles/home.scss"
+import { Experience } from "./components/experience/experience";
 
 export default function Home() {
   return (
     <main className="container">
       <Header/>
-      <div className="experience">
-        <h3>Experience</h3>
-        <p>
-          I´m a software engineer with 3 years of experience, working with
-          frontend and backend technologies.
-        </p>
-      </div>
+      <Experience/>
       <div className="infos">
         <h3>Languages</h3>
         <div className="languages-info">

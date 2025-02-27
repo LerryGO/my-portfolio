@@ -1,0 +1,19 @@
+.infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 24px;
+
+    .languages-info{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    span {
+        color: var(--text-secondary);
+    }
+}

@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Portfolio
 
-## Getting Started
+Bem-vindo ao meu portfólio! Este é um projeto desenvolvido com **React**, **Sass** e **TypeScript** para exibir meus trabalhos, habilidades e informações profissionais. A aplicação foi construída de maneira responsiva e moderna, com foco na experiência do usuário.
 
-First, run the development server:
+## Tecnologias Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **React**: Biblioteca JavaScript para criar interfaces de usuário dinâmicas e interativas.
+- **Sass**: Pré-processador CSS para tornar o estilo mais modular e fácil de manter.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática, tornando o código mais seguro e fácil de entender.
+  
+## Funcionalidades
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Página inicial com uma visão geral sobre mim.
+- Seção de projetos com detalhes sobre os meus trabalhos anteriores.
+- Formulário de contato para comunicação direta.
+- Design responsivo para dispositivos móveis e desktop.
+  
+## Pré-requisitos
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Para rodar o projeto localmente, você precisará ter as seguintes ferramentas instaladas:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Node.js** (versão 14 ou superior)
+- **npm** (gerenciador de pacotes do Node) ou **yarn**
 
-## Learn More
+## Como Rodar o Projeto
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone este repositório para o seu computador:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/seu-usuario/my-portfolio.git
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Navegue até o diretório do projeto:
 
-## Deploy on Vercel
+   ```bash
+   cd my-portfolio
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Instale as dependências:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   Se estiver usando npm:
+
+   ```bash
+   npm install
+   ```
+
+    Se estiver usando yarn:
+   
+   ```bash
+   yarn install
+   ```
+4. Execute o projeto:
+
+   Com npm:
+
+   ```bash
+   npm start
+   ```
+
+   Com yarn:
+   
+   ```bash
+   yarn start
+   ```
+
+5. A aplicação estará disponível em http://localhost:3000.
+   

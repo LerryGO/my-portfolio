@@ -7,13 +7,13 @@ import "./social-btns.scss"
 export function SocialBtns() {
   return (
     <div className="social">
-      <a href="">
+      <a href="https://www.instagram.com/lerry_augusto/">
         <InstaIcon />
       </a>
-      <a href="">
+      <a href="https://www.linkedin.com/in/lerry-augusto/">
         <LinkedinIcon />
       </a>
-      <a href="">
+      <a href="https://github.com/LerryGO">
         <GithubIcon />
       </a>
       
